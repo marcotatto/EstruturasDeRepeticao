@@ -1,0 +1,22 @@
+<html> 
+    <head> 
+        <title>login</title>
+        <script type="text/javascript">
+        let user = document.getElementById("user").value;
+        let pass= document. getElementById("pass").value;
+        
+        if(user== "marcotatto" && pass=="2408"){
+            alert("hola, seja bem vindo" + user);
+        }
+        </script>
+    </head>
+    <body>
+        <form>
+            <label for="user">usuario</label>
+            <input type="text" id="user">
+            <label for="pass">senha</label>
+            <input type="password" id="pass">
+            <button onclick="login()">Entrar</button>
+        </form>
+    </body>
+</html>
